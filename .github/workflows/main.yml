@@ -23,7 +23,7 @@ jobs:
         runs-on: ${{ matrix.os }}
         strategy:
             matrix:
-                os: [ ubuntu-latest, windows-latest ]
+                os: [ ubuntu-latest, windows-latest, macos-latest ]
                 java: [ 22 ]
         steps:
             -   name: Checkout code
@@ -68,7 +68,7 @@ jobs:
         runs-on: ${{ matrix.os }}
         strategy:
             matrix:
-                os: [ ubuntu-latest, windows-latest ]
+                os: [ ubuntu-latest, windows-latest, macos-latest ]
                 java: [ 22 ]
         needs:
             - build
