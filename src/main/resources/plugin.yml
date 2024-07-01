@@ -1,0 +1,12 @@
+# Plugin name and version
+name: ${NAME}
+version: ${VERSION}
+
+# Project information
+author: Altiran Studios
+website: https://altiran.com
+description: A highly customizable plugin that can be used to disable the ability of dropping items by players and warn them to not drop items again.
+
+# Technical information
+main: ${PACKAGE}.${NAME}
+api-version: '1.21'

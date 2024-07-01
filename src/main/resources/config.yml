@@ -1,0 +1,43 @@
+# ************************* #
+#   DropStop Configuration  #
+# ************************* #
+
+# DISABLE ITEM DROPS
+# Enables the core feature of the plugin to disable item drops.
+# When enabled, players will not be able to drop items.
+# Default: true
+disable-item-drops: true
+
+# WARN PLAYER ON DROP
+# Enable this to warn players if they try to drop items when the plugin is enabled.
+# Default: false
+warn-player-on-drop: false
+
+# WARNING MESSAGE
+# Give a message to send as a warning when dropping items (only works when 'warn-player-on-drop' is enabled).
+# Use & for Minecraft text formatting and %player% for the player name.
+# Default: "&6&lHey %player%, you are not allowed to drop that here."
+warning-message: "&6&lHey %player%, you are not allowed to drop that here."
+
+# WARNING TIMEOUT
+# Time in seconds to wait before sending the warning message again.
+# This feature is to prevent spamming the warning message.
+# Set to 0 to disable the feature.
+# Default: 5
+warning-timeout: 5
+
+# ITEM ALLOWLISTING
+# Enable item allowlist to allow dropping for certain items and restrict for the rest.
+# When enabled, only the items in the list will be allowed to drop.
+# Default: false
+item-allowlisting: false
+
+# ITEM ALLOWLIST
+# This is the list of items which can be dropped even when the plugin is enabled.
+# Can hold different item names e.g., DIAMOND, STICK, DIRT.
+# Default:
+#    - DIAMOND
+#    - GOLD_BLOCK
+item-allowlist:
+    - DIAMOND
+    - GOLD_BLOCK
