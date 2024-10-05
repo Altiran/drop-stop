@@ -142,7 +142,7 @@ dependencies {
     testImplementation 'org.slf4j:slf4j-simple:2.0.16'
 
     // JUnit Jupiter API provides the classes and methods necessary to write tests.
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.2'
 
     // JUnit Platform to discover, filter, and execute tests.
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
