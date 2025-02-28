@@ -139,7 +139,7 @@ dependencies {
     testImplementation 'com.altiran:concurrentia:1.0.3'
 
     // SLF4J for testing only. The server will provide the implementation at runtime.
-    testImplementation 'org.slf4j:slf4j-simple:2.0.16'
+    testImplementation 'org.slf4j:slf4j-simple:2.0.17'
 
     // JUnit Jupiter API provides the classes and methods necessary to write tests.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.12.0'
