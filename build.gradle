@@ -181,7 +181,7 @@ checkstyle {
 configurations.checkstyle {
     // Use Google Guava instead of Google Collections.
     resolutionStrategy.capabilitiesResolution.withCapability('com.google.collections:google-collections') {
-        select('com.google.guava:guava:33.4.0-jre')
+        select('com.google.guava:guava:33.4.6-jre')
     }
 }
 
