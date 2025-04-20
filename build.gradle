@@ -133,7 +133,7 @@ dependencies {
     // SpotBugs for static analysis (only at compile time and testing).
     compileOnly 'com.github.spotbugs:spotbugs-annotations:4.9.3'
     testCompileOnly 'com.github.spotbugs:spotbugs-annotations:4.9.3'
-    spotbugsPlugins 'com.h3xstream.findsecbugs:findsecbugs-plugin:1.13.0'
+    spotbugsPlugins 'com.h3xstream.findsecbugs:findsecbugs-plugin:1.14.0'
 
     // Concurrentia for asynchronous tests.
     testImplementation 'com.altiran:concurrentia:1.0.3'
