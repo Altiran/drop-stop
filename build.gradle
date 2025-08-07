@@ -171,7 +171,7 @@ processResources {
 // Configure the Checkstyle plugin.
 checkstyle {
     // Checkstyle version to use.
-    toolVersion '10.26.1'
+    toolVersion '11.0.0'
 
     // No limit on the number of warnings.
     maxWarnings = 0
