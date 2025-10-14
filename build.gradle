@@ -131,8 +131,8 @@ dependencies {
     compileOnly 'jakarta.annotation:jakarta.annotation-api:3.0.0'
 
     // SpotBugs for static analysis (only at compile time and testing).
-    compileOnly 'com.github.spotbugs:spotbugs-annotations:4.9.6'
-    testCompileOnly 'com.github.spotbugs:spotbugs-annotations:4.9.6'
+    compileOnly 'com.github.spotbugs:spotbugs-annotations:4.9.7'
+    testCompileOnly 'com.github.spotbugs:spotbugs-annotations:4.9.7'
     spotbugsPlugins 'com.h3xstream.findsecbugs:findsecbugs-plugin:1.14.0'
 
     // Concurrentia for asynchronous tests.
