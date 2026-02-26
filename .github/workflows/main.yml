@@ -55,7 +55,7 @@ jobs:
                 run: ./gradlew assemble --info
 
             -   name: Upload build results
-                uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+                uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7
                 with:
                     name: Build Results (Java ${{ matrix.java }} on ${{ matrix.os }})
                     path: ${{ github.workspace }}/build/libs/
@@ -95,7 +95,7 @@ jobs:
                 run: ./gradlew check --info
 
             -   name: Upload test results
-                uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+                uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7
                 with:
                     name: Test Reports (Java ${{ matrix.java }} on ${{ matrix.os }})
                     path: ${{ github.workspace }}/build/reports/
