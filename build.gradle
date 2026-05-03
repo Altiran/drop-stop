@@ -114,7 +114,7 @@ dependencies {
      *******************************************/
 
     // Paper API for compilation only. The server will provide the implementation at runtime.
-    compileOnly 'io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT'
+    compileOnly 'io.papermc.paper:paper-api:26.1.2.build.59-stable'
 
     // MockBukkit
     testImplementation 'com.github.seeseemelk:MockBukkit-v1.20:3.93.2'
